@@ -1,0 +1,4 @@
+com\agoda\framework\testcase\SupportingFunctions.class
+com\agoda\framework\testcase\PasswordChange.class
+com\agoda\framework\util\ExcelUtil.class
+com\agoda\framework\base\baseStaticValue.class

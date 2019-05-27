@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Jitenderkumar01\AppData\Local\Temp\testng-eclipse-1302285262\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods, 4 failed,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpjjjjj, P must have atleast one special character !!, Password must...)">callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpjjjjj, P must have atleast one special character !!, Password must...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, Un*iasdfghj1234567890, % of password is a number !!, 50 % of password is a numb...)">callerFunction(An7$asdfghjkiolpjya, Un*iasdfghj1234567890, % of password is a number !!, 50 % of password is a numb...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, UnJK&amp;asdfghjkiolpj, Password must have atleast one digit cha !!, Password must ...)">callerFunction(An7$asdfghjkiolpjya, UnJK&asdfghjkiolpj, Password must have atleast one digit cha !!, Password must ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...)">callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(Jtender Kumar, Un7$asdfghjkiolpjfdgfgf, Old Password is not exist !!, Old Password is not exist !!, ...)">callerFunction(Jtender Kumar, Un7$asdfghjkiolpjfdgfgf, Old Password is not exist !!, Old Password is not exist !!, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, *****dfghjkiolpjUabcde6, Password have more than 4 special character i.e *, Pas...)">callerFunction(An7$asdfghjkiolpjya, *****dfghjkiolpjUabcde6, Password have more than 4 special character i.e *, Pas...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(Bn7$asdfghjkiolpjyb, Un7$asdfghjkab1234, , , PASS, TRUE)">callerFunction(Bn7$asdfghjkiolpjyb, Un7$asdfghjkab1234, , , PASS, TRUE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(Jtender Kumar, Jeeta12345678, Old Password is not exist !!, Old Password is not exist !!, PASS, FALS...)">callerFunction(Jtender Kumar, Jeeta12345678, Old Password is not exist !!, Old Password is not exist !!, PASS, FALS...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...)">callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, , Please enter new password, Please enter new password, PASS, FALSE)">callerFunction(An7$asdfghjkiolpjya, , Please enter new password, Please enter new password, PASS, FALSE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, U7&amp;BHUJKLOIU8YTF45, Password must have atleast one lowercase character !!, Pass...)">callerFunction(An7$asdfghjkiolpjya, U7&BHUJKLOIU8YTF45, Password must have atleast one lowercase character !!, Pass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, jkn7&amp;asdfghjkiolpj, Password must have atleast one uppercase character !!, Pass...)">callerFunction(An7$asdfghjkiolpjya, jkn7&asdfghjkiolpj, Password must have atleast one uppercase character !!, Pass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(, Jeeta12345678, Please enter old password, Please enter old password, PASS, FALSE)">callerFunction(, Jeeta12345678, Please enter old password, Please enter old password, PASS, FALSE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(Bn7$asdfghjkiolpjyb, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...)">callerFunction(Bn7$asdfghjkiolpjyb, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(Cn7$asdfghjkiolpjyc, Un7$asdfghjk*^jdk90, , , PASS, TRUE)">callerFunction(Cn7$asdfghjkiolpjyc, Un7$asdfghjk*^jdk90, , , PASS, TRUE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(Bn7$asdfghjkiolpjyb, Un$asdfghjkiolpjfdgfgf, Password must have atleast one digit character !!, Pass...)">callerFunction(Bn7$asdfghjkiolpjyb, Un$asdfghjkiolpjfdgfgf, Password must have atleast one digit character !!, Pass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpj, Password lenght must have atleast 18 character !!, Password mus...)">callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpj, Password lenght must have atleast 18 character !!, Password mus...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolp*****, Password must have atleast one uppercase character !!, Pass...)">callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolp*****, Password must have atleast one uppercase character !!, Pass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, *****d666666666UUUUU6, Password have more than 4 special character i.e *, Passw...)">callerFunction(An7$asdfghjkiolpjya, *****d666666666UUUUU6, Password have more than 4 special character i.e *, Passw...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpjjjjj, Password must have atleast one special character !!, Passwo...)">callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpjjjjj, Password must have atleast one special character !!, Passwo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, UnJK&amp;asdfghjkiolpj, Password must have atleast one digit character !!, Password...)">callerFunction(An7$asdfghjkiolpjya, UnJK&asdfghjkiolpj, Password must have atleast one digit character !!, Password...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, Un*iasdfghj1234567890, 50 % of password is a number !!, 50 % of password is a n...)">callerFunction(An7$asdfghjkiolpjya, Un*iasdfghj1234567890, 50 % of password is a number !!, 50 % of password is a n...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, *****dfghjkiolpjUUUUU6, Password have more than 4 special character i.e *, Pass...)">callerFunction(An7$asdfghjkiolpjya, *****dfghjkiolpjUUUUU6, Password have more than 4 special character i.e *, Pass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpj, Password lenght must have atleast 18 character !!, Password ...)">callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpj, Password lenght must have atleast 18 character !!, Password ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, Un7asdfghjkiolpjyu, Password must have atleast one special character !!, Passwo...)">callerFunction(An7$asdfghjkiolpjya, Un7asdfghjkiolpjyu, Password must have atleast one special character !!, Passwo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(Bn7$asdfghjkiolpjyb, Un7asdfghjkiolpjfdgfgf, Password must have atleast one special character !!, Pa...)">callerFunction(Bn7$asdfghjkiolpjyb, Un7asdfghjkiolpjfdgfgf, Password must have atleast one special character !!, Pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, jkn7&amp;ajkiolpjUUUUUsdsd, Password have repeated character more than 4 times i.e ...)">callerFunction(An7$asdfghjkiolpjya, jkn7&ajkiolpjUUUUUsdsd, Password have repeated character more than 4 times i.e ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkabcdefg, , , PASS, TRUE)">callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkabcdefg, , , PASS, TRUE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(Dn7$asdfghjkiolpjyd, Un7$asdfgh9768u%*h, , , PASS, TRUE)">callerFunction(Dn7$asdfghjkiolpjyd, Un7$asdfgh9768u%*h, , , PASS, TRUE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.agoda.framework.testcase.PasswordChange" hash-for-method="callerFunction(An7$asdfghjkiolpjya, Un7asdfghjkiolpjyu^), Password must have atleast one special character !!, Pass...)">callerFunction(An7$asdfghjkiolpjya, Un7asdfghjkiolpjyu^), Password must have atleast one special character !!, Pass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.agoda.framework.testcase.PasswordChange</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpjjjjj, P must have atleast one special character !!, Password must...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpjjjjj, P must have atleast one special character !!, Password must...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, nasdfghjkiolpjjjjj, P must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have repeated character more than 4 times i.e j, Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have repeated character more than 4 times i.e j, FAIL, FALSE)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [P must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have repeated character more than 4 times i.e j] but found [Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have repeated character more than 4 times i.e j]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.agoda.framework.util.SupportingFunctions.assertErrorAndUpdateExcel(SupportingFunctions.java:75)
+	at com.agoda.framework.util.SupportingFunctions.ChangePassword(SupportingFunctions.java:47)
+	at com.agoda.framework.testcase.PasswordChange.callerFunction(PasswordChange.java:32)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, Un*iasdfghj1234567890, % of password is a number !!, 50 % of password is a numb...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, Un*iasdfghj1234567890, % of password is a number !!, 50 % of password is a numb...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, Un*iasdfghj1234567890, % of password is a number !!, 50 % of password is a number !!, FAIL, FALSE)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [% of password is a number !!] but found [50 % of password is a number !!]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.agoda.framework.util.SupportingFunctions.assertErrorAndUpdateExcel(SupportingFunctions.java:75)
+	at com.agoda.framework.util.SupportingFunctions.ChangePassword(SupportingFunctions.java:47)
+	at com.agoda.framework.testcase.PasswordChange.callerFunction(PasswordChange.java:32)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, UnJK&amp;asdfghjkiolpj, Password must have atleast one digit cha !!, Password must ...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, UnJK&asdfghjkiolpj, Password must have atleast one digit cha !!, Password must ...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, UnJK&asdfghjkiolpj, Password must have atleast one digit cha !!, Password must have atleast one digit character !!, FAIL, FALSE)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Password must have atleast one digit cha !!] but found [Password must have atleast one digit character !!]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.agoda.framework.util.SupportingFunctions.assertErrorAndUpdateExcel(SupportingFunctions.java:75)
+	at com.agoda.framework.util.SupportingFunctions.ChangePassword(SupportingFunctions.java:47)
+	at com.agoda.framework.testcase.PasswordChange.callerFunction(PasswordChange.java:32)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 80%, Try , New password is similar to old password by more than 80%, Try new password, FAIL, FALSE)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [New password is similar to old password by more than 80%, Try ] but found [New password is similar to old password by more than 80%, Try new password]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.agoda.framework.util.SupportingFunctions.assertErrorAndUpdateExcel(SupportingFunctions.java:75)
+	at com.agoda.framework.util.SupportingFunctions.ChangePassword(SupportingFunctions.java:44)
+	at com.agoda.framework.testcase.PasswordChange.callerFunction(PasswordChange.java:32)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.agoda.framework.testcase.PasswordChange</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(Jtender Kumar, Un7$asdfghjkiolpjfdgfgf, Old Password is not exist !!, Old Password is not exist !!, ...)">
+                  </a> <!-- callerFunction(Jtender Kumar, Un7$asdfghjkiolpjfdgfgf, Old Password is not exist !!, Old Password is not exist !!, ...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(Jtender Kumar, Un7$asdfghjkiolpjfdgfgf, Old Password is not exist !!, Old Password is not exist !!, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, *****dfghjkiolpjUabcde6, Password have more than 4 special character i.e *, Pas...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, *****dfghjkiolpjUabcde6, Password have more than 4 special character i.e *, Pas...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, *****dfghjkiolpjUabcde6, Password have more than 4 special character i.e *, Password must have atleast one uppercase character !!, Password have more than 4 special character i.e *, FAIL, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(Bn7$asdfghjkiolpjyb, Un7$asdfghjkab1234, , , PASS, TRUE)">
+                  </a> <!-- callerFunction(Bn7$asdfghjkiolpjyb, Un7$asdfghjkab1234, , , PASS, TRUE) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(Bn7$asdfghjkiolpjyb, Un7$asdfghjkab1234, , , PASS, TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(Jtender Kumar, Jeeta12345678, Old Password is not exist !!, Old Password is not exist !!, PASS, FALS...)">
+                  </a> <!-- callerFunction(Jtender Kumar, Jeeta12345678, Old Password is not exist !!, Old Password is not exist !!, PASS, FALS...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(Jtender Kumar, Jeeta12345678, Old Password is not exist !!, Old Password is not exist !!, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 80%, Try new password, New password is similar to old password by more than 80%, Try new password, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, , Please enter new password, Please enter new password, PASS, FALSE)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, , Please enter new password, Please enter new password, PASS, FALSE) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, , Please enter new password, Please enter new password, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, U7&amp;BHUJKLOIU8YTF45, Password must have atleast one lowercase character !!, Pass...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, U7&BHUJKLOIU8YTF45, Password must have atleast one lowercase character !!, Pass...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, U7&BHUJKLOIU8YTF45, Password must have atleast one lowercase character !!, Password must have atleast one lowercase character !!, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, jkn7&amp;asdfghjkiolpj, Password must have atleast one uppercase character !!, Pass...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, jkn7&asdfghjkiolpj, Password must have atleast one uppercase character !!, Pass...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, jkn7&asdfghjkiolpj, Password must have atleast one uppercase character !!, Password must have atleast one uppercase character !!, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(, Jeeta12345678, Please enter old password, Please enter old password, PASS, FALSE)">
+                  </a> <!-- callerFunction(, Jeeta12345678, Please enter old password, Please enter old password, PASS, FALSE) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(, Jeeta12345678, Please enter old password, Please enter old password, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(Bn7$asdfghjkiolpjyb, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...)">
+                  </a> <!-- callerFunction(Bn7$asdfghjkiolpjyb, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(Bn7$asdfghjkiolpjyb, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 80%, Try new password, New password is similar to old password by more than 80%, Try new password, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(Cn7$asdfghjkiolpjyc, Un7$asdfghjk*^jdk90, , , PASS, TRUE)">
+                  </a> <!-- callerFunction(Cn7$asdfghjkiolpjyc, Un7$asdfghjk*^jdk90, , , PASS, TRUE) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(Cn7$asdfghjkiolpjyc, Un7$asdfghjk*^jdk90, , , PASS, TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(Bn7$asdfghjkiolpjyb, Un$asdfghjkiolpjfdgfgf, Password must have atleast one digit character !!, Pass...)">
+                  </a> <!-- callerFunction(Bn7$asdfghjkiolpjyb, Un$asdfghjkiolpjfdgfgf, Password must have atleast one digit character !!, Pass...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(Bn7$asdfghjkiolpjyb, Un$asdfghjkiolpjfdgfgf, Password must have atleast one digit character !!, Password must have atleast one digit character !!, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpj, Password lenght must have atleast 18 character !!, Password mus...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpj, Password lenght must have atleast 18 character !!, Password mus...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, nasdfghjkiolpj, Password lenght must have atleast 18 character !!, Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password lenght must have atleast 18 character !!, Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolp*****, Password must have atleast one uppercase character !!, Pass...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolp*****, Password must have atleast one uppercase character !!, Pass...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, nasdfghjkiolp*****, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have more than 4 special character i.e *, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have more than 4 special character i.e *, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, *****d666666666UUUUU6, Password have more than 4 special character i.e *, Passw...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, *****d666666666UUUUU6, Password have more than 4 special character i.e *, Passw...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, *****d666666666UUUUU6, Password have more than 4 special character i.e *, Password have repeated character more than 4 times i.e 6, 50 % of password is a number !!, Password have more than 4 special character i.e *, Password have repeated character more than 4 times i.e 6, 50 % of password is a number !!, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpjjjjj, Password must have atleast one special character !!, Passwo...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpjjjjj, Password must have atleast one special character !!, Passwo...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, nasdfghjkiolpjjjjj, Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have repeated character more than 4 times i.e j, Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have repeated character more than 4 times i.e j, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, UnJK&amp;asdfghjkiolpj, Password must have atleast one digit character !!, Password...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, UnJK&asdfghjkiolpj, Password must have atleast one digit character !!, Password...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, UnJK&asdfghjkiolpj, Password must have atleast one digit character !!, Password must have atleast one digit character !!, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, Un*iasdfghj1234567890, 50 % of password is a number !!, 50 % of password is a n...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, Un*iasdfghj1234567890, 50 % of password is a number !!, 50 % of password is a n...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, Un*iasdfghj1234567890, 50 % of password is a number !!, 50 % of password is a number !!, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, *****dfghjkiolpjUUUUU6, Password have more than 4 special character i.e *, Pass...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, *****dfghjkiolpjUUUUU6, Password have more than 4 special character i.e *, Pass...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, *****dfghjkiolpjUUUUU6, Password have more than 4 special character i.e *, Password have repeated character more than 4 times i.e U, Password have more than 4 special character i.e *, Password have repeated character more than 4 times i.e U, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpj, Password lenght must have atleast 18 character !!, Password ...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpj, Password lenght must have atleast 18 character !!, Password ...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, Un7$asdfghjkiolpj, Password lenght must have atleast 18 character !!, Password lenght must have atleast 18 character !!, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, Un7asdfghjkiolpjyu, Password must have atleast one special character !!, Passwo...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, Un7asdfghjkiolpjyu, Password must have atleast one special character !!, Passwo...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, Un7asdfghjkiolpjyu, Password must have atleast one special character !!, Password must have atleast one special character !!, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(Bn7$asdfghjkiolpjyb, Un7asdfghjkiolpjfdgfgf, Password must have atleast one special character !!, Pa...)">
+                  </a> <!-- callerFunction(Bn7$asdfghjkiolpjyb, Un7asdfghjkiolpjfdgfgf, Password must have atleast one special character !!, Pa...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(Bn7$asdfghjkiolpjyb, Un7asdfghjkiolpjfdgfgf, Password must have atleast one special character !!, Password must have atleast one special character !!, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, jkn7&amp;ajkiolpjUUUUUsdsd, Password have repeated character more than 4 times i.e ...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, jkn7&ajkiolpjUUUUUsdsd, Password have repeated character more than 4 times i.e ...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, jkn7&ajkiolpjUUUUUsdsd, Password have repeated character more than 4 times i.e U, Password have repeated character more than 4 times i.e U, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkabcdefg, , , PASS, TRUE)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkabcdefg, , , PASS, TRUE) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, Un7$asdfghjkabcdefg, , , PASS, TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(Dn7$asdfghjkiolpjyd, Un7$asdfgh9768u%*h, , , PASS, TRUE)">
+                  </a> <!-- callerFunction(Dn7$asdfghjkiolpjyd, Un7$asdfgh9768u%*h, , , PASS, TRUE) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(Dn7$asdfghjkiolpjyd, Un7$asdfgh9768u%*h, , , PASS, TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="callerFunction(An7$asdfghjkiolpjya, Un7asdfghjkiolpjyu^), Password must have atleast one special character !!, Pass...)">
+                  </a> <!-- callerFunction(An7$asdfghjkiolpjya, Un7asdfghjkiolpjyu^), Password must have atleast one special character !!, Pass...) -->
+                  <span class="method-name">callerFunction</span>
+                  <span class="parameters">(An7$asdfghjkiolpjya, Un7asdfghjkiolpjyu^), Password must have atleast one special character !!, Password must have atleast one special character !!, PASS, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Jitenderkumar01\AppData\Local\Temp\testng-eclipse-1302285262\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.agoda.framework.testcase.PasswordChange&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'callerFunction')
+data.setCell(0, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(0, 3, 173);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'callerFunction')
+data.setCell(1, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(1, 3, 112);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'callerFunction')
+data.setCell(2, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(2, 3, 95);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'callerFunction')
+data.setCell(3, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(3, 3, 89);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'callerFunction')
+data.setCell(4, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(4, 3, 78);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'callerFunction')
+data.setCell(5, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(5, 3, 69);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'callerFunction')
+data.setCell(6, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(6, 3, 65);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'callerFunction')
+data.setCell(7, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(7, 3, 61);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'callerFunction')
+data.setCell(8, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(8, 3, 58);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'callerFunction')
+data.setCell(9, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(9, 3, 58);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'callerFunction')
+data.setCell(10, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(10, 3, 57);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'callerFunction')
+data.setCell(11, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(11, 3, 55);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'callerFunction')
+data.setCell(12, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(12, 3, 53);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'callerFunction')
+data.setCell(13, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(13, 3, 52);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'callerFunction')
+data.setCell(14, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(14, 3, 50);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'callerFunction')
+data.setCell(15, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(15, 3, 50);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'callerFunction')
+data.setCell(16, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(16, 3, 49);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'callerFunction')
+data.setCell(17, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(17, 3, 48);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'callerFunction')
+data.setCell(18, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(18, 3, 47);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'callerFunction')
+data.setCell(19, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(19, 3, 46);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'callerFunction')
+data.setCell(20, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(20, 3, 46);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'callerFunction')
+data.setCell(21, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(21, 3, 45);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'callerFunction')
+data.setCell(22, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(22, 3, 45);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'callerFunction')
+data.setCell(23, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(23, 3, 43);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'callerFunction')
+data.setCell(24, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(24, 3, 41);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'callerFunction')
+data.setCell(25, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(25, 3, 41);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'callerFunction')
+data.setCell(26, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(26, 3, 32);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'callerFunction')
+data.setCell(27, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(27, 3, 32);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'callerFunction')
+data.setCell(28, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(28, 3, 31);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'callerFunction')
+data.setCell(29, 2, 'com.agoda.framework.testcase.PasswordChange')
+data.setCell(29, 3, 30);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.agoda.framework.testcase.PasswordChange</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, , Please enter new password, Please enter new password, PASS, FALSE)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(, Jeeta12345678, Please enter old password, Please enter old password, PASS, FALSE)</span>
+                <span class="method-start">176 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(Jtender Kumar, Un7$asdfghjkiolpjfdgfgf, Old Password is not exist !!, Old Password is not exist !!, ...)</span>
+                <span class="method-start">273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(Jtender Kumar, Jeeta12345678, Old Password is not exist !!, Old Password is not exist !!, PASS, FALS...)</span>
+                <span class="method-start">363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpj, Password lenght must have atleast 18 character !!, Password ...)</span>
+                <span class="method-start">481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, Un7asdfghjkiolpjyu, Password must have atleast one special character !!, Passwo...)</span>
+                <span class="method-start">552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, Un7asdfghjkiolpjyu^), Password must have atleast one special character !!, Pass...)</span>
+                <span class="method-start">620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, jkn7&asdfghjkiolpj, Password must have atleast one uppercase character !!, Pass...)</span>
+                <span class="method-start">700 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, U7&BHUJKLOIU8YTF45, Password must have atleast one lowercase character !!, Pass...)</span>
+                <span class="method-start">762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, UnJK&asdfghjkiolpj, Password must have atleast one digit character !!, Password...)</span>
+                <span class="method-start">821 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, jkn7&ajkiolpjUUUUUsdsd, Password have repeated character more than 4 times i.e ...)</span>
+                <span class="method-start">878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, *****dfghjkiolpjUabcde6, Password have more than 4 special character i.e *, Pas...)</span>
+                <span class="method-start">935 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, Un*iasdfghj1234567890, 50 % of password is a number !!, 50 % of password is a n...)</span>
+                <span class="method-start">984 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpj, Password lenght must have atleast 18 character !!, Password mus...)</span>
+                <span class="method-start">1034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpjjjjj, Password must have atleast one special character !!, Passwo...)</span>
+                <span class="method-start">1088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolp*****, Password must have atleast one uppercase character !!, Pass...)</span>
+                <span class="method-start">1147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, *****dfghjkiolpjUUUUU6, Password have more than 4 special character i.e *, Pass...)</span>
+                <span class="method-start">1194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, *****d666666666UUUUU6, Password have more than 4 special character i.e *, Passw...)</span>
+                <span class="method-start">1236 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...)</span>
+                <span class="method-start">1278 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(Bn7$asdfghjkiolpjyb, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...)</span>
+                <span class="method-start">1329 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(Bn7$asdfghjkiolpjyb, Un$asdfghjkiolpjfdgfgf, Password must have atleast one digit character !!, Pass...)</span>
+                <span class="method-start">1373 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(Bn7$asdfghjkiolpjyb, Un7asdfghjkiolpjfdgfgf, Password must have atleast one special character !!, Pa...)</span>
+                <span class="method-start">1419 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkabcdefg, , , PASS, TRUE)</span>
+                <span class="method-start">1467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(Bn7$asdfghjkiolpjyb, Un7$asdfghjkab1234, , , PASS, TRUE)</span>
+                <span class="method-start">1500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(Cn7$asdfghjkiolpjyc, Un7$asdfghjk*^jdk90, , , PASS, TRUE)</span>
+                <span class="method-start">1532 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">callerFunction(Dn7$asdfghjkiolpjyd, Un7$asdfgh9768u%*h, , , PASS, TRUE)</span>
+                <span class="method-start">1563 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, UnJK&asdfghjkiolpj, Password must have atleast one digit cha !!, Password must ...)</span>
+                <span class="method-start">1595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, nasdfghjkiolpjjjjj, P must have atleast one special character !!, Password must...)</span>
+                <span class="method-start">1643 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, Un*iasdfghj1234567890, % of password is a number !!, 50 % of password is a numb...)</span>
+                <span class="method-start">1694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">callerFunction(An7$asdfghjkiolpjya, Un7$asdfghjkiolpjfdgfgf, New password is similar to old password by more than 8...)</span>
+                <span class="method-start">1740 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

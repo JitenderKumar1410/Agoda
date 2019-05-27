@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">26</td><td class="num">0</td><td class="num attn">4</td><td class="num">2,339</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.agoda.framework.testcase.PasswordChange</td><td><a href="#m0">callerFunction</a></td><td rowspan="4">1558970747432</td><td rowspan="4">50</td></tr><tr class="failedeven"><td><a href="#m1">callerFunction</a></td></tr><tr class="failedeven"><td><a href="#m2">callerFunction</a></td></tr><tr class="failedeven"><td><a href="#m3">callerFunction</a></td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="26">com.agoda.framework.testcase.PasswordChange</td><td><a href="#m4">callerFunction</a></td><td rowspan="26">1558970746062</td><td rowspan="26">89</td></tr><tr class="passedeven"><td><a href="#m5">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m6">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m7">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m8">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m9">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m10">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m11">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m12">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m13">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m14">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m15">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m16">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m17">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m18">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m19">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m20">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m21">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m22">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m23">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m24">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m25">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m26">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m27">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m28">callerFunction</a></td></tr><tr class="passedeven"><td><a href="#m29">callerFunction</a></td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>nasdfghjkiolpjjjjj</td><td>P must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have repeated character more than 4 times i.e j</td><td>Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have repeated character more than 4 times i.e j</td><td>FAIL</td><td>FALSE</td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">java.lang.AssertionError: expected [P must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have repeated character more than 4 times i.e j] but found [Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have repeated character more than 4 times i.e j]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.agoda.framework.util.SupportingFunctions.assertErrorAndUpdateExcel(SupportingFunctions.java:75)
+	at com.agoda.framework.util.SupportingFunctions.ChangePassword(SupportingFunctions.java:47)
+	at com.agoda.framework.testcase.PasswordChange.callerFunction(PasswordChange.java:32)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>Un*iasdfghj1234567890</td><td>% of password is a number !!</td><td>50 % of password is a number !!</td><td>FAIL</td><td>FALSE</td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">java.lang.AssertionError: expected [% of password is a number !!] but found [50 % of password is a number !!]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.agoda.framework.util.SupportingFunctions.assertErrorAndUpdateExcel(SupportingFunctions.java:75)
+	at com.agoda.framework.util.SupportingFunctions.ChangePassword(SupportingFunctions.java:47)
+	at com.agoda.framework.testcase.PasswordChange.callerFunction(PasswordChange.java:32)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>UnJK&amp;asdfghjkiolpj</td><td>Password must have atleast one digit cha !!</td><td>Password must have atleast one digit character !!</td><td>FAIL</td><td>FALSE</td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">java.lang.AssertionError: expected [Password must have atleast one digit cha !!] but found [Password must have atleast one digit character !!]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.agoda.framework.util.SupportingFunctions.assertErrorAndUpdateExcel(SupportingFunctions.java:75)
+	at com.agoda.framework.util.SupportingFunctions.ChangePassword(SupportingFunctions.java:47)
+	at com.agoda.framework.testcase.PasswordChange.callerFunction(PasswordChange.java:32)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>Un7$asdfghjkiolpjfdgfgf</td><td>New password is similar to old password by more than 80%, Try </td><td>New password is similar to old password by more than 80%, Try new password</td><td>FAIL</td><td>FALSE</td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">java.lang.AssertionError: expected [New password is similar to old password by more than 80%, Try ] but found [New password is similar to old password by more than 80%, Try new password]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.agoda.framework.util.SupportingFunctions.assertErrorAndUpdateExcel(SupportingFunctions.java:75)
+	at com.agoda.framework.util.SupportingFunctions.ChangePassword(SupportingFunctions.java:44)
+	at com.agoda.framework.testcase.PasswordChange.callerFunction(PasswordChange.java:32)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Jtender Kumar</td><td>Un7$asdfghjkiolpjfdgfgf</td><td>Old Password is not exist !!</td><td>Old Password is not exist !!</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>*****dfghjkiolpjUabcde6</td><td>Password have more than 4 special character i.e *</td><td>Password must have atleast one uppercase character !!, Password have more than 4 special character i.e *</td><td>FAIL</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Bn7$asdfghjkiolpjyb</td><td>Un7$asdfghjkab1234</td><td></td><td></td><td>PASS</td><td>TRUE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Jtender Kumar</td><td>Jeeta12345678</td><td>Old Password is not exist !!</td><td>Old Password is not exist !!</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>Un7$asdfghjkiolpjfdgfgf</td><td>New password is similar to old password by more than 80%, Try new password</td><td>New password is similar to old password by more than 80%, Try new password</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td></td><td>Please enter new password</td><td>Please enter new password</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>U7&amp;BHUJKLOIU8YTF45</td><td>Password must have atleast one lowercase character !!</td><td>Password must have atleast one lowercase character !!</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>jkn7&amp;asdfghjkiolpj</td><td>Password must have atleast one uppercase character !!</td><td>Password must have atleast one uppercase character !!</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td></td><td>Jeeta12345678</td><td>Please enter old password</td><td>Please enter old password</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Bn7$asdfghjkiolpjyb</td><td>Un7$asdfghjkiolpjfdgfgf</td><td>New password is similar to old password by more than 80%, Try new password</td><td>New password is similar to old password by more than 80%, Try new password</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Cn7$asdfghjkiolpjyc</td><td>Un7$asdfghjk*^jdk90</td><td></td><td></td><td>PASS</td><td>TRUE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Bn7$asdfghjkiolpjyb</td><td>Un$asdfghjkiolpjfdgfgf</td><td>Password must have atleast one digit character !!</td><td>Password must have atleast one digit character !!</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>nasdfghjkiolpj</td><td>Password lenght must have atleast 18 character !!, Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!</td><td>Password lenght must have atleast 18 character !!, Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>nasdfghjkiolp*****</td><td>Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have more than 4 special character i.e *</td><td>Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have more than 4 special character i.e *</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>*****d666666666UUUUU6</td><td>Password have more than 4 special character i.e *, Password have repeated character more than 4 times i.e 6, 50 % of password is a number !!</td><td>Password have more than 4 special character i.e *, Password have repeated character more than 4 times i.e 6, 50 % of password is a number !!</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>nasdfghjkiolpjjjjj</td><td>Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have repeated character more than 4 times i.e j</td><td>Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have repeated character more than 4 times i.e j</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>UnJK&amp;asdfghjkiolpj</td><td>Password must have atleast one digit character !!</td><td>Password must have atleast one digit character !!</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>Un*iasdfghj1234567890</td><td>50 % of password is a number !!</td><td>50 % of password is a number !!</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>*****dfghjkiolpjUUUUU6</td><td>Password have more than 4 special character i.e *, Password have repeated character more than 4 times i.e U</td><td>Password have more than 4 special character i.e *, Password have repeated character more than 4 times i.e U</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>Un7$asdfghjkiolpj</td><td>Password lenght must have atleast 18 character !!</td><td>Password lenght must have atleast 18 character !!</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>Un7asdfghjkiolpjyu</td><td>Password must have atleast one special character !!</td><td>Password must have atleast one special character !!</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Bn7$asdfghjkiolpjyb</td><td>Un7asdfghjkiolpjfdgfgf</td><td>Password must have atleast one special character !!</td><td>Password must have atleast one special character !!</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>jkn7&amp;ajkiolpjUUUUUsdsd</td><td>Password have repeated character more than 4 times i.e U</td><td>Password have repeated character more than 4 times i.e U</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>Un7$asdfghjkabcdefg</td><td></td><td></td><td>PASS</td><td>TRUE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Dn7$asdfghjkiolpjyd</td><td>Un7$asdfgh9768u%*h</td><td></td><td></td><td>PASS</td><td>TRUE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">com.agoda.framework.testcase.PasswordChange#callerFunction</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>An7$asdfghjkiolpjya</td><td>Un7asdfghjkiolpjyu^)</td><td>Password must have atleast one special character !!</td><td>Password must have atleast one special character !!</td><td>PASS</td><td>FALSE</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
