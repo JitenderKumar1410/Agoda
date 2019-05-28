@@ -24,7 +24,7 @@ public class baseStaticValue {
 	public static XSSFCell cell;
 	public static DataFormatter formatter = new DataFormatter();
 
-	public static String ExcelPath = "D://Book1.xlsx";
+	public static String ExcelPath = ".//ImportantFiles//TestDataAndTestStatusSheet.xlsx";
 	public static String SheetNumber = "Sheet1";
 
 	public static List<String> errorList = new ArrayList<String>();

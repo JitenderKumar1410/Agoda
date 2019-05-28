@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="4" ignored="0" total="30" passed="26">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2339" started-at="2019-05-27T15:25:45Z" finished-at="2019-05-27T15:25:47Z">
+  <suite name="Default suite" duration-ms="2330" started-at="2019-05-28T08:35:54Z" finished-at="2019-05-28T08:35:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2339" started-at="2019-05-27T15:25:45Z" finished-at="2019-05-27T15:25:47Z">
+    <test name="Default test" duration-ms="2330" started-at="2019-05-28T08:35:54Z" finished-at="2019-05-28T08:35:56Z">
       <class name="com.agoda.framework.testcase.PasswordChange">
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="173" started-at="2019-05-27T15:25:45Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:45Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="148" started-at="2019-05-28T08:35:54Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:54Z">
           <params>
             <param index="0">
               <value>
@@ -26,24 +26,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Please enter new password]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="95" started-at="2019-05-27T15:25:45Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="116" started-at="2019-05-28T08:35:54Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:54Z">
           <params>
             <param index="0">
               <value>
@@ -62,24 +62,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Please enter old password]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="89" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="92" started-at="2019-05-28T08:35:54Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -98,24 +98,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Old Password is not exist !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="112" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="70" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -134,24 +134,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Old Password is not exist !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="69" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="80" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -170,24 +170,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password lenght must have atleast 18 character !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="65" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="67" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -206,24 +206,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password must have atleast one special character !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="78" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="75" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -242,24 +242,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password must have atleast one special character !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="61" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="67" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -278,24 +278,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password must have atleast one uppercase character !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="58" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="72" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -314,24 +314,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password must have atleast one lowercase character !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="55" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="62" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -350,24 +350,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password must have atleast one digit character !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="57" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="52" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -386,24 +386,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password have repeated character more than 4 times i.e U]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="48" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="50" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -422,24 +422,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password must have atleast one uppercase character !!, Password have more than 4 special character i.e *]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[FAIL]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="49" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="56" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -458,24 +458,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[50 % of password is a number !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="53" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="76" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -494,24 +494,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password lenght must have atleast 18 character !!, Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="58" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="47" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -530,24 +530,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have repeated character more than 4 times i.e j]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="46" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:46Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="46" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -566,24 +566,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have more than 4 special character i.e *]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="41" started-at="2019-05-27T15:25:46Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:47Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="48" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -602,24 +602,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password have more than 4 special character i.e *, Password have repeated character more than 4 times i.e U]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="41" started-at="2019-05-27T15:25:47Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:47Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="51" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -638,24 +638,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password have more than 4 special character i.e *, Password have repeated character more than 4 times i.e 6, 50 % of password is a number !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="50" started-at="2019-05-27T15:25:47Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:47Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="53" started-at="2019-05-28T08:35:55Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:56Z">
           <params>
             <param index="0">
               <value>
@@ -674,24 +674,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[New password is similar to old password by more than 80%, Try new password]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="43" started-at="2019-05-27T15:25:47Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:47Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="48" started-at="2019-05-28T08:35:56Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:56Z">
           <params>
             <param index="0">
               <value>
@@ -710,24 +710,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[New password is similar to old password by more than 80%, Try new password]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="46" started-at="2019-05-27T15:25:47Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:47Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="45" started-at="2019-05-28T08:35:56Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:56Z">
           <params>
             <param index="0">
               <value>
@@ -746,24 +746,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password must have atleast one digit character !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="47" started-at="2019-05-27T15:25:47Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:47Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="44" started-at="2019-05-28T08:35:56Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:56Z">
           <params>
             <param index="0">
               <value>
@@ -782,24 +782,24 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password must have atleast one special character !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="32" started-at="2019-05-27T15:25:47Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:47Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="36" started-at="2019-05-28T08:35:56Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:56Z">
           <params>
             <param index="0">
               <value>
@@ -823,19 +823,19 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[TRUE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="31" started-at="2019-05-27T15:25:47Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:47Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="35" started-at="2019-05-28T08:35:56Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:56Z">
           <params>
             <param index="0">
               <value>
@@ -859,19 +859,19 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[TRUE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="30" started-at="2019-05-27T15:25:47Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:47Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="30" started-at="2019-05-28T08:35:56Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:56Z">
           <params>
             <param index="0">
               <value>
@@ -895,19 +895,19 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[TRUE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="32" started-at="2019-05-27T15:25:47Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:47Z">
+        <test-method status="PASS" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="36" started-at="2019-05-28T08:35:56Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:56Z">
           <params>
             <param index="0">
               <value>
@@ -931,19 +931,19 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[PASS]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[TRUE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="FAIL" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="45" started-at="2019-05-27T15:25:47Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:47Z">
+        <test-method status="FAIL" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="48" started-at="2019-05-28T08:35:56Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:56Z">
           <params>
             <param index="0">
               <value>
@@ -962,17 +962,17 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password must have atleast one digit character !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[FAIL]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
@@ -1021,7 +1021,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="FAIL" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="50" started-at="2019-05-27T15:25:47Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:47Z">
+        <test-method status="FAIL" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="49" started-at="2019-05-28T08:35:56Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:56Z">
           <params>
             <param index="0">
               <value>
@@ -1040,17 +1040,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="3">
               <value>
-                <![CDATA[Password must have atleast one special character !!, Password must have atleast one uppercase character !!, Password must have atleast one digit character !!, Password have repeated character more than 4 times i.e j]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[FAIL]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
@@ -1099,7 +1099,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="FAIL" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="45" started-at="2019-05-27T15:25:47Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:47Z">
+        <test-method status="FAIL" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="44" started-at="2019-05-28T08:35:56Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:56Z">
           <params>
             <param index="0">
               <value>
@@ -1118,17 +1118,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="3">
               <value>
-                <![CDATA[50 % of password is a number !!]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[FAIL]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
@@ -1177,7 +1177,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callerFunction -->
-        <test-method status="FAIL" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@2a5ca609]" name="callerFunction" duration-ms="52" started-at="2019-05-27T15:25:47Z" data-provider="ReadExcel" finished-at="2019-05-27T15:25:47Z">
+        <test-method status="FAIL" signature="callerFunction(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.agoda.framework.testcase.PasswordChange@7c16905e]" name="callerFunction" duration-ms="50" started-at="2019-05-28T08:35:56Z" data-provider="ReadExcel" finished-at="2019-05-28T08:35:56Z">
           <params>
             <param index="0">
               <value>
@@ -1196,17 +1196,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="3">
               <value>
-                <![CDATA[New password is similar to old password by more than 80%, Try new password]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[FAIL]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
